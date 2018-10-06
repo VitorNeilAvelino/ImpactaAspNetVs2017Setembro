@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Repositorios.WebA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login.Mvc", "Login.Mvc\Login.Mvc.csproj", "{3AD4A64A-95B6-42CF-B461-00241B80732D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Recursos", "Loja.Recursos\Loja.Recursos.csproj", "{8526DBB0-0B9A-4749-B1B4-928137242D8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -208,6 +210,10 @@ Global
 		{3AD4A64A-95B6-42CF-B461-00241B80732D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AD4A64A-95B6-42CF-B461-00241B80732D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AD4A64A-95B6-42CF-B461-00241B80732D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8526DBB0-0B9A-4749-B1B4-928137242D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8526DBB0-0B9A-4749-B1B4-928137242D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8526DBB0-0B9A-4749-B1B4-928137242D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8526DBB0-0B9A-4749-B1B4-928137242D8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -237,6 +243,7 @@ Global
 		{D1C89260-F631-474E-BBE0-D1FD4A2DC4EF} = {2BC91EF0-7A8B-4B54-88C3-E95B73B89738}
 		{F4723D87-EC10-4285-AF47-BE398DD72597} = {2BC91EF0-7A8B-4B54-88C3-E95B73B89738}
 		{3AD4A64A-95B6-42CF-B461-00241B80732D} = {8B954413-7517-4890-9E99-D13D1303CE32}
+		{8526DBB0-0B9A-4749-B1B4-928137242D8C} = {8B954413-7517-4890-9E99-D13D1303CE32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35C93FF7-E78A-446A-9EC9-52C8F89B3511}

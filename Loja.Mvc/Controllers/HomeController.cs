@@ -8,6 +8,13 @@ namespace Loja.Mvc.Controllers
 {
     public class HomeController : Controller
     {
+        public ActionResult DefinirLinguagem(string linguagem)
+        {
+            Response.Cookies["LinguagemSelecionada"].Value = linguagem;
+
+            return Redirect(Request.UrlReferrer.ToString());
+        }
+
         public ActionResult Index()
         {
             return View();

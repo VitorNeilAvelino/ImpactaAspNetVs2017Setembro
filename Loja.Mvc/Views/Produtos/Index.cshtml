@@ -1,10 +1,11 @@
 ﻿@using System.Security.Claims;
+@using Loja.Recursos
 
 @model IEnumerable<Loja.Mvc.Models.ProdutoViewModel>
 @{
     ViewBag.Title = "Index";
 }
-<h2>Index</h2>
+<h2>@Literal.NomeModuloProdutos</h2>
 
 @if (User.Identity.IsAuthenticated)
 {
